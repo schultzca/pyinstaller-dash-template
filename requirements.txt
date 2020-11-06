@@ -1,0 +1,6 @@
+pyinstaller
+pywin32
+pefile
+dash==1.17.0
+plotly
+pandas
