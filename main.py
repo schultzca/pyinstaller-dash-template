@@ -4,6 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 import pandas as pd
+import webbrowser
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -33,4 +34,5 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
+    webbrowser.open("http://localhost:8050", new=2)
     app.run_server(debug=False)
