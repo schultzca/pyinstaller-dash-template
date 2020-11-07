@@ -1,1 +1,1 @@
-pyinstaller main.py --additional-hooks-dir=hooks --onefile --console
+pyinstaller main.py --additional-hooks-dir=hooks --onefile --debug=all
